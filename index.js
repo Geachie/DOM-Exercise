@@ -41,3 +41,10 @@ let winHeight = window.innerHeight;
 
 div.style.width = `${winWidth}px`;
 div.style.height = `${winHeight}px`;
+
+window.onresize = () => {
+  winWidth = window.innerWidth;
+  winHeight = window.innerHeight;
+  div.style.width = `${winWidth}px`;
+  div.style.height = `${winHeight}px`;
+};
