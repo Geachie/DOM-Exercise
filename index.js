@@ -21,4 +21,14 @@ const linkPara = document.querySelector("p");
 
 linkPara.appendChild(text);
 
-linkPara.remove();
+// linkPara.remove();
+
+// Manipulating Styles
+
+// para.style.color = "white";
+// para.style.backgroundColor = "black";
+// para.style.padding = "10px";
+// para.style.width = "250px";
+// para.style.textAlign = "center";
+
+para.setAttribute("class", "highlight");
